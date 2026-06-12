@@ -1,0 +1,35 @@
+For every additional element, why you are adding it
+
+I added the DNS server because it is required to resolve a domain name to an IP address.
+
+
+What distribution algorithm your load balancer is configured with and how it works
+
+In the current infrastructure,
+the distribution algorithm is Round robin.
+It distributes requests across different servers using a rotation system.
+
+
+Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
+
+In the current configuration, the load balancer operates in active-active mode because it distributes requests across all servers, unlike active-passive mode, which distributes requests to the first server unless it is overloaded.
+
+
+How a database Primary-Replica (Master-Slave) cluster works
+
+
+What is the difference between the Primary node and the Replica node in regard to the application
+
+
+You must be able to explain what the issues are with this infrastructure:
+
+
+Where are SPOF
+
+In the current infrastructure, the SPOF is the load balancer, because if it goes down, nothing else works.
+
+
+Security issues (no firewall, no HTTPS)
+
+
+No monitoring

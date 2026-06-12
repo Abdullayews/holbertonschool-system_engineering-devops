@@ -1,0 +1,57 @@
+What is a server?
+
+A server is a computer or software program that is often designed to run 24 hours a day, 7 days a week.
+It provides data, resources, or services to other computers called “clients” within a computer network.
+
+
+
+What is the role of the domain name?
+
+The main purpose of a domain name is to provide users with an address that is easier to remember than an IP address.
+
+
+
+What type of DNS record www is in www.foobar.com?
+
+The “www.” subdomain often points to the main domain, so it uses a CNAME record.
+
+
+
+What is the role of the web server?
+
+The role of the web server is to deliver a web page to the user (HTML, CSS, JavaScript).
+
+
+
+What is the role of the application server?
+
+The role of the application server is that host application or software that executes application/business logic,
+processes user requests and and returns dynamic responses.
+
+
+
+What is the role of the database?
+
+The role of a database is to store, organize, manage data.
+
+
+
+What is the server using to communicate with the computer of the user requesting the website?
+
+Web servers use the HTTP (Hypertext Transfer Protocol) to communicate.
+
+
+
+You must be able to explain what the issues are with this infrastructure:
+
+
+SPOF
+
+In the current infrastructure, the SPOF is the server, because if it goes down, nothing else works.
+
+
+
+Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+
+
+Cannot scale if too much incoming traffic
